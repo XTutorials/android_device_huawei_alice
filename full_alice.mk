@@ -31,10 +31,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
 # Device
 $(call inherit-product, device/huawei/alice/device.mk)
 
-PRODUCT_NAME := full_alice
-PRODUCT_DEVICE := alice
+PRODUCT_NAME := full_hi6210sft
+PRODUCT_DEVICE := hi6210sft
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := HUAWEI-P8Lite
+PRODUCT_MODEL := HUAWEI-HI6210SFT
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
