@@ -48,3 +48,7 @@ ro.telephony.default_network=9
 ro.telephony.ril.config=simactivation
 telephony.lteOnCdmaDevice=0
 telephony.lteOnGsmDevice=1
+
+# Wifi
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=15
