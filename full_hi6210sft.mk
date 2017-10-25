@@ -29,12 +29,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
 
 # Device
-$(call inherit-product, device/huawei/alice/device.mk)
+$(call inherit-product, device/huawei/hi6210sft/device.mk)
 
 PRODUCT_NAME := full_hi6210sft
 PRODUCT_DEVICE := hi6210sft
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := HUAWEI-HI6210SFT
+PRODUCT_MODEL := HUAWEI-hi6210sft
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei

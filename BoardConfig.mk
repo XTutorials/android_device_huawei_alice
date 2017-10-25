@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-LOCAL_PATH := device/huawei/alice
+LOCAL_PATH := device/huawei/hi6210sft
 
 # 64 Bit
 ANDROID_64=true
@@ -55,7 +55,7 @@ BOARD_USES_GENERIC_AUDIO := false
 TARGET_PROVIDES_LIBAUDIO := true
 
 # Blobs
--include vendor/huawei/alice/BoardConfigVendor.mk
+-include vendor/huawei/hi6210sft/BoardConfigVendor.mk
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
@@ -119,7 +119,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image
 
 TARGET_KERNEL_CONFIG := alice_defconfig
-TARGET_KERNEL_SOURCE := kernel/huawei/alice
+TARGET_KERNEL_SOURCE := kernel/huawei/hi6210sft
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -144,7 +144,7 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.hi6210sft
 
 # RIL
 BOARD_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
-BOARD_RIL_CLASS := ../../../device/huawei/alice/ril
+BOARD_RIL_CLASS := ../../../device/huawei/hi6210sft/ril
 PROTOBUF_SUPPORTED := true
 TARGET_RIL_VARIANT := proprietary
 

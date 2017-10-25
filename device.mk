@@ -53,7 +53,7 @@ PRODUCT_PACKAGES += \
     	tinyplay \
 
 # Blobs
-$(call inherit-product-if-exists, vendor/huawei/alice/alice-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/hi6210sft/hi6210sft-vendor.mk)
 
 # Dalvik
 PRODUCT_TAGS += dalvik.gc.type-precise
