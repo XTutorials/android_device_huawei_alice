@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-$(call inherit-product, device/huawei/alice/full_alice.mk)
+$(call inherit-product, device/huawei/alice/full_hi6210sft.mk)
 
 PRODUCT_NAME := aosp_hi6210sft
 PRODUCT_DEVICE := hi6210sft
